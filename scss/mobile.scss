@@ -1,0 +1,103 @@
+@media screen and (min-width:320px) and (max-width: 747px) {
+	.body{
+		width: 747px;
+		height: 1240px;
+		background-image: url("../img/fon_mobile.png");
+		.container_1{
+			width: 747px;
+			height: 1340px;
+			padding: 35px 15px 0px 15px;
+			.header{
+				.header_text{
+					margin-left: 55px;
+				}
+				.button{
+					margin-left: 35px;
+				}
+			}
+			.main{
+				width: 700px;
+				height: 422px;
+				margin-top: 44px;
+				.main_left{
+					h1{
+					width: 725px;
+					height: 198px;
+					text-align: center;
+					}
+					.main_left_text{
+						margin: 0 auto;
+						width: 510px;
+						height: 99px;
+						text-align: center;
+					}
+					.main_left_footer{
+						margin: 0 auto;
+						margin-top:620px;
+					}
+				}
+			}
+			.main_right{
+				position: absolute;
+				left: 230px;
+				top: 440px;
+				.main_right_video{
+					img{
+						display: none;
+					}
+					.main_right_video_text{
+						display: none;
+					}
+				}
+			}
+			.position{
+				width: 747px;
+				height: 150px;
+				top: 380px;
+				.main_users{
+					width: 747px;
+					height: 150px;
+					.main_user{
+						display:inline-block;
+						position: absolute;
+						top: 820px;
+					}
+				}	
+			}
+		}
+		.container_2{
+			position: absolute;
+			left: 0px;
+			width: 600px;
+			margin-top: 0px;
+			height: 800px;
+			.problema{
+				width: 747px;
+				height: 1150px;
+				.problema_cards{
+					margin-top: 40px;
+					display: block;
+					.problema_card{
+						margin: 0 auto;
+						width: 700px;
+						height: 240px;
+						text-align: center;
+						.problema_card_button{
+							width:677px;
+							height: 65px;
+							margin: 0 auto;
+							.problema_card_button_text{
+								margin-top: 10px;
+							}
+						}
+					}
+				}
+				img{
+					top: 1110px;
+					margin: 0 auto;
+					left: 350px;
+				}
+			}
+		}
+	}
+}
